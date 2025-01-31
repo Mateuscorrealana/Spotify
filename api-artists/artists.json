@@ -1,0 +1,21 @@
+{
+  "artists": [
+    { "id": 1, "name": "Foo Fighters", "genre": "Rock", "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15" },
+    { "id": 2, "name": "Michael Jackson", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa" },
+    { "id": 3, "name": "Emicida", "genre": "Hip Hop", "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068" },
+    { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
+    { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
+    { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
+    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
+    { "id": 8, "name": "Veigh", "genre": "Rap", "urlImg": "./src/fotos-artistas/veigh.jpg" },
+    { "id": 9, "name": "Boaventura", "genre": "Hip Hop", "urlImg": "./src/fotos-artistas/boaventura.jpg" },
+    { "id": 10, "name": "Kyan", "genre": "Rap", "urlImg": "./src/fotos-artistas/kyan2.jpg" },
+    { "id": 11, "name": "Yunk Vino", "genre": "Rap", "urlImg": "./src/fotos-artistas/yunk.jpg" },
+    { "id": 12, "name": "MC Ig", "genre": "Funk", "urlImg": "./src/fotos-artistas/mcig.jpeg" },
+    { "id": 13, "name": "Recayd Mob", "genre": "Rap", "urlImg": "./src/fotos-artistas/recayd mob.jpg" },
+    { "id": 14, "name": "MC Luuky", "genre": "Funk", "urlImg": "./src/fotos-artistas/mc luucky.jpg" },
+    { "id": 15, "name": "Danzo", "genre": "Rap", "urlImg": "./src/fotos-artistas/danzo.jpg" },
+    { "id": 16, "name": "LPT Zlatan", "genre": "Rap", "urlImg": "./src/fotos-artistas/zlatan.jpg" },
+    { "id": 17, "name": "Bradockdan", "genre": "Rap", "urlImg": "./src/fotos-artistas/Bradockdan.jpeg" }
+  ]
+}
