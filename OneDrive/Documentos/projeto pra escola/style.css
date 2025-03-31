@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open sans";
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+:root {
+    --cor1: #cbc0d3;
+    --cor2: #efd3d7;
+    --cor3: #feeafa;
+    --cor4: #dee2ff;
+    --cor5: #8e9aaf;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    animation: bounce 1s ease-in-out infinite;
+    font-family: "Open sans";
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+
+h3{
+    color: rgb(255, 10, 10);
+    padding-top: 28px;
+    padding-left: 35px;
+    text-align: center;
+
+}
+
+.teste{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    left: 32%;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: center;
+}
+
+.search-input{
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 40px 10px 15px;
+    background-color: #1d1c1c;
+    color: #faf6f6;
+    border: none;
+    text-align: center;
+}
+
+.lupa{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.header_login {
+   display: flex;
+   align-items: center;
+   margin-right: -7%;
+}
+
+.header_login .cadastro, .header_login .login{
+    font-size: 16px;
+    font-weight: 700px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.header_login .cadastro{
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.header_login .login{
+    background-color: #000;
+    color: #dedada;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+footer{
+    color: #dedada;
+    font-family: "Open sans";
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+.cabeça{
+    padding-left: 10px;
+    font-family: "Open sans";
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.calendario{
+    text-align: right;
+    padding-right: 15px;
+}
+
+.um, .dois, .tres{
+    color: red;
+}
+
+.aulas-semanais{
+    padding: 10px 0 0 1190px;
+    color: #0a49d1;
+}
+
+.aula{
+    padding: 10px 0 10px;
+}
+
+.sino{
+    position: relative;
+    width: 22%;
+    background: #000000;
+    background-color: transparent;
+    padding: 1px 1px;
+    margin-right: -43px;
+    cursor: pointer;
+}
+
+.matérias{
+    padding: 15px;
+}
+
+.navigation{
+    position: relative;
+    height: 500px;
+    background-color: #464d5c;
+    width: 70px;
+    box-shadow: 10px 0 0 #25a10d;
+    border-left: 10px solid #464d5c;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.navigation:hover{
+    width: 300px;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #dedada;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.navigation ul li a .icon ion-icon{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
+.navigation ul li.active{
+    background-color: #25a10d;
+}
+

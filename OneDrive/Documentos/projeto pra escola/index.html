@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="icon" href="assets/imgpaulina.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <title>Notificador de provas</title>
+</head>
+
+<body>
+
+    <header class="teste">
+            <div class="container">
+                <input type="search" value="" placeholder="O que você procura?" class="search-input">
+                <img src="assets/search.png" alt="barra de pesquisa" class="lupa">
+            </div>
+            <div class="header_login">
+                <div class="sino">
+                    <img src="assets/sino/bell-solid (2).svg" alt="sino-notificação" class="sino">
+                </div>
+                <button class="cadastro">Cadastre-se</button>
+                <button class="login">Entrar</button>
+            </div>
+    </header>
+
+    <h1>Olá!</h1>
+    <h2>Seja bem vindo(a) ao notificador de provas e trabalhos!</h2>
+
+
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline" aria-hidden="true"></ion-icon></span>
+                    <span class="title">Início</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="calendar-number-outline"></ion-icon></span>
+                    <span class="title">Calendário</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                    <span class="title">Aulas</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="school-outline"></ion-icon></span>
+                    <span class="title">Provas e trabalhos</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <footer>
+        <p><strong>Criado por: Irivam Junior e Mateus Corrêa</strong></p>
+        <p>&copy; 2025</p>
+    </footer>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.querySelectorAll('.list').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.list').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
